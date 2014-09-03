@@ -1,12 +1,13 @@
 body {
-    background-color:#cdcdcd;
+    background-color: #dfdfdf;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     color: #cdcdcd;
+    font-size: 140%;
 }
 
 h1 {
-    color: #FFFFFF;
+    color: #333333;
     font-family: 'Helvetica Neue',Arial,sans-serif;
     font-size: 1.25em;
     font-weight: bold;
@@ -22,7 +23,7 @@ p {
 }
 
 header {
-    background-color:#8B9BBF;
+    background-color:#efefef;
     padding: 5px;
 }
 
@@ -67,6 +68,7 @@ header {
     padding-left: 1em;
     width: 15em;
     height: 8em;
+    cursor: pointer;
 }
 
 .gridWidget span {
@@ -76,10 +78,20 @@ header {
     margin-right: 1em;
 }
 
-.gridWidget .red {
-    background-color: red;
+.scruffy-screenshot-gallery .red {
+    background-color: salmon;
 }
 
-.gridWidget .blue {
-    background-color: lightgreen;
+.scruffy-screenshot-gallery .red_anime,
+.scruffy-screenshot-gallery .blue_anime {
+    background-color: silver;
+}
+
+.scruffy-screenshot-gallery .blue {
+    background-color: chartreuse;
+}
+
+.conf {
+    font-size: 60%;
+    display: block;
 }
